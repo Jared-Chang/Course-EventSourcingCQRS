@@ -137,15 +137,6 @@ public class CreateTagUseCaseTest2 extends AbstractSpringBootJpaTest {
         tagRepository.save(tag);
     }
 
-    @Test
-    public void read_from_snapshot() {
-        EsdbStoreAdapter esdbStoreAdapter = new EsdbStoreAdapter(ESDB_URL);
-        TagRepository tagRepository = new SnapshottedTagEventSourcingRepository(
-                (TagEventSourcingRepository) this.tagRepository, esdbStoreAdapter);
-
-        Tag tag = tagRepository.findById("008").get();
-    }
-
     private String createTagInBoard(BoardId boardId){
         CreateTagUseCase createTagUseCase = new CreateTagService(tagRepository);
         CreateTagInput input = new CreateTagInput();

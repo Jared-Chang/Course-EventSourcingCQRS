@@ -9,10 +9,6 @@ board
 From: 'an unknown organization'
   - AntLR Parser Generator (http://www.antlr.org/) antlr:antlr:jar:2.7.7
     License: BSD License  (http://www.antlr.org/license.html)
-  - EventStoreDB Client Java (https://eventstore.com) com.eventstore:db-client-java:jar:2.0.0
-    License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-  - Google Android Annotations Library (http://source.android.com/) com.google.android:annotations:jar:4.1.1.4
-    License: Apache 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
   - FindBugs-jsr305 (http://findbugs.sourceforge.net/) com.google.code.findbugs:jsr305:jar:3.0.2
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - Gson (https://github.com/google/gson/gson) com.google.code.gson:gson:jar:2.8.6
@@ -27,36 +23,14 @@ From: 'an unknown organization'
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - J2ObjC Annotations (https://github.com/google/j2objc/) com.google.j2objc:j2objc-annotations:jar:1.3
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-  - Protocol Buffers [Core] (https://developers.google.com/protocol-buffers/protobuf-java/) com.google.protobuf:protobuf-java:bundle:3.12.2
-    License: 3-Clause BSD License  (https://opensource.org/licenses/BSD-3-Clause)
-  - Protocol Buffers [Util] (https://developers.google.com/protocol-buffers/protobuf-java-util/) com.google.protobuf:protobuf-java-util:bundle:3.12.2
-    License: 3-Clause BSD License  (https://opensource.org/licenses/BSD-3-Clause)
   - H2 Database Engine (https://h2database.com) com.h2database:h2:jar:1.4.200
     License: MPL 2.0 or EPL 1.0  (https://h2database.com/html/license.html)
   - project ':json-path' (https://github.com/jayway/JsonPath) com.jayway.jsonpath:json-path:jar:2.5.0
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - JSON library from Android SDK (http://developer.android.com/sdk) com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1
     License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
-  - io.grpc:grpc-api (https://github.com/grpc/grpc-java) io.grpc:grpc-api:jar:1.31.1
-    License: Apache 2.0  (https://opensource.org/licenses/Apache-2.0)
-  - io.grpc:grpc-context (https://github.com/grpc/grpc-java) io.grpc:grpc-context:jar:1.31.1
-    License: Apache 2.0  (https://opensource.org/licenses/Apache-2.0)
-  - io.grpc:grpc-core (https://github.com/grpc/grpc-java) io.grpc:grpc-core:jar:1.31.1
-    License: Apache 2.0  (https://opensource.org/licenses/Apache-2.0)
-  - io.grpc:grpc-netty-shaded (https://github.com/grpc/grpc-java) io.grpc:grpc-netty-shaded:jar:1.31.1
-    License: Apache 2.0  (https://opensource.org/licenses/Apache-2.0)
-  - io.grpc:grpc-protobuf (https://github.com/grpc/grpc-java) io.grpc:grpc-protobuf:jar:1.31.1
-    License: Apache 2.0  (https://opensource.org/licenses/Apache-2.0)
-  - io.grpc:grpc-protobuf-lite (https://github.com/grpc/grpc-java) io.grpc:grpc-protobuf-lite:jar:1.31.1
-    License: Apache 2.0  (https://opensource.org/licenses/Apache-2.0)
-  - io.grpc:grpc-stub (https://github.com/grpc/grpc-java) io.grpc:grpc-stub:jar:1.31.1
-    License: Apache 2.0  (https://opensource.org/licenses/Apache-2.0)
-  - perfmark:perfmark-api (https://github.com/perfmark/perfmark) io.perfmark:perfmark-api:jar:0.19.0
-    License: Apache 2.0  (https://opensource.org/licenses/Apache-2.0)
   - javax.persistence-api (https://github.com/javaee/jpa-spec) javax.persistence:javax.persistence-api:jar:2.2
     License: Eclipse Public License v1.0  (http://www.eclipse.org/legal/epl-v10.html)    License: Eclipse Distribution License v. 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
-  - Bean Validation API (http://beanvalidation.org) javax.validation:validation-api:jar:2.0.1.Final
-    License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - jdom  jdom:jdom:jar:1.0
 
   - Byte Buddy (without dependencies) (https://bytebuddy.net/byte-buddy) net.bytebuddy:byte-buddy:jar:1.11.13
@@ -89,8 +63,6 @@ From: 'an unknown organization'
     License: The MIT License  (https://github.com/mockito/mockito/blob/release/3.x/LICENSE)
   - pitest-junit5-plugin (http://pitest.org) org.pitest:pitest-junit5-plugin:jar:0.15
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
-  - reactive-streams (http://www.reactive-streams.org/) org.reactivestreams:reactive-streams:jar:1.0.3
-    License: CC0  (http://creativecommons.org/publicdomain/zero/1.0/)
   - JSONassert (https://github.com/skyscreamer/JSONassert) org.skyscreamer:jsonassert:jar:1.5.0
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
   - spring-boot-starter-parent (https://spring.io/projects/spring-boot) org.springframework.boot:spring-boot-starter-parent:pom:2.5.6
@@ -182,14 +154,6 @@ From: 'fasterxml.com' (https://fasterxml.com)
   - ClassMate (https://github.com/FasterXML/java-classmate) com.fasterxml:classmate:bundle:1.5.1
     License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
 
-From: 'GlassFish Community' (https://javaee.github.io/glassfish)
-  - javax.annotation API (http://jcp.org/en/jsr/detail?id=250) javax.annotation:javax.annotation-api:jar:1.3.2
-    License: CDDL + GPLv2 with classpath exception  (https://github.com/javaee/javax.annotation/blob/master/LICENSE)
-
-From: 'Google LLC'
-  - proto-google-common-protos (https://github.com/googleapis/api-client-staging) com.google.api.grpc:proto-google-common-protos:jar:1.17.0
-    License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
-
 From: 'Hibernate.org' (http://hibernate.org)
   - Hibernate ORM - hibernate-core (http://hibernate.org/orm) org.hibernate:hibernate-core:jar:5.4.32.Final
     License: GNU Library General Public License v2.1 or later  (http://www.opensource.org/licenses/LGPL-2.1)
@@ -215,10 +179,6 @@ From: 'JSON' (http://json.org/)
 From: 'MetaStuff Ltd.' (http://sourceforge.net/projects/dom4j)
   - dom4j (http://dom4j.org) dom4j:dom4j:jar:1.6.1
 
-
-From: 'MojoHaus' (http://www.mojohaus.org)
-  - Animal Sniffer Annotations (http://www.mojohaus.org/animal-sniffer/animal-sniffer-annotations) org.codehaus.mojo:animal-sniffer-annotations:jar:1.18
-    License: MIT license  (http://www.opensource.org/licenses/mit-license.php)
 
 From: 'ObjectWeb' (http://www.objectweb.org/)
   - ASM Core (http://asm.objectweb.org/asm/) org.ow2.asm:asm:jar:5.0.4
@@ -305,7 +265,7 @@ From: 'QOS.ch' (http://www.qos.ch)
     License: Eclipse Public License - v 1.0  (http://www.eclipse.org/legal/epl-v10.html)    License: GNU Lesser General Public License  (http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
   - JUL to SLF4J bridge (http://www.slf4j.org) org.slf4j:jul-to-slf4j:jar:1.7.32
     License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
-  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.26
+  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.30
     License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
 
 From: 'Shigeru Chiba, www.javassist.org'
@@ -345,9 +305,9 @@ From: 'Sun Microsystems' (http://java.sun.com/)
 
 
 From: 'The Apache Software Foundation' (https://www.apache.org/)
-  - ddd-gateway (https://www.apache.org/es-cqrs/ddd-gateway/) ntut.csie.sslab:ddd-gateway:jar:1.0.0-SNAPSHOT
+  - ddd-gateway (https://www.apache.org/ddd-clean-es-cqrs/ddd-gateway/) ntut.csie.sslab:ddd-gateway:jar:1.0.0-SNAPSHOT
     License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
-  - dddcore (https://www.apache.org/es-cqrs/dddcore/) ntut.csie.sslab:dddcore:jar:1.0.0-SNAPSHOT
+  - dddcore (https://www.apache.org/ddd-clean-es-cqrs/dddcore/) ntut.csie.sslab:dddcore:jar:1.0.0-SNAPSHOT
     License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
   - Apache Log4j API (https://logging.apache.org/log4j/2.x/log4j-api/) org.apache.logging.log4j:log4j-api:jar:2.14.1
     License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)

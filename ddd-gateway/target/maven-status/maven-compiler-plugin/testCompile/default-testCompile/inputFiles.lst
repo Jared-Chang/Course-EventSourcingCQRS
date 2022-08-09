@@ -1,3 +1,3 @@
-/Users/teddy/Workspace/Course/IdeaProjects/event-sourced-kanban/event-sourced-ezkanban-v2/es-cqrs/ddd-gateway/src/test/java/ntut/csie/sslab/ddd/adapter/eventbroker/PersistentSubscriptions.java
-/Users/teddy/Workspace/Course/IdeaProjects/event-sourced-kanban/event-sourced-ezkanban-v2/es-cqrs/ddd-gateway/src/test/java/ntut/csie/sslab/ddd/entity/RemoteDomainEventTest.java
-/Users/teddy/Workspace/Course/IdeaProjects/event-sourced-kanban/event-sourced-ezkanban-v2/es-cqrs/ddd-gateway/src/test/java/ntut/csie/sslab/ddd/adapter/eventbroker/EsdbProjectionTest.java
+C:\Users\teddy\Workspace\IdeaProjects\ddd-clean-es-cqrs\ddd-gateway\src\test\java\ntut\csie\sslab\ddd\adapter\eventbroker\PersistentSubscriptions.java
+C:\Users\teddy\Workspace\IdeaProjects\ddd-clean-es-cqrs\ddd-gateway\src\test\java\ntut\csie\sslab\ddd\entity\RemoteDomainEventTest.java
+C:\Users\teddy\Workspace\IdeaProjects\ddd-clean-es-cqrs\ddd-gateway\src\test\java\ntut\csie\sslab\ddd\adapter\eventbroker\EsdbProjectionTest.java

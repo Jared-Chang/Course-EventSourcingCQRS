@@ -4,7 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b0d8ba9-72db-46d7-a856-ab58a3d24eff" name="Changes" comment="" />
+    <list default="true" id="9b0d8ba9-72db-46d7-a856-ab58a3d24eff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/board/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/src/test/java/ntut/csie/sslab/ezkanban/kanban/tag/usecase/CreateTagUseCaseTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/board/src/test/java/ntut/csie/sslab/ezkanban/kanban/tag/usecase/CreateTagUseCaseTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" beforeDir="false" afterPath="$PROJECT_DIR$/board/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/target/maven-shared-archive-resources/META-INF/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/board/target/maven-shared-archive-resources/META-INF/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/target/maven-shared-archive-resources/META-INF/NOTICE" beforeDir="false" afterPath="$PROJECT_DIR$/board/target/maven-shared-archive-resources/META-INF/NOTICE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/board/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/board/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board/target/test-classes/ntut/csie/sslab/ezkanban/kanban/tag/usecase/CreateTagUseCaseTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/board/target/test-classes/ntut/csie/sslab/ezkanban/kanban/tag/usecase/CreateTagUseCaseTest2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ddd-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd-gateway/target/ddd-gateway-tests.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ddd-gateway/target/ddd-gateway-tests.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd-gateway/target/ddd-gateway.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ddd-gateway/target/ddd-gateway.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd-gateway/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" beforeDir="false" afterPath="$PROJECT_DIR$/ddd-gateway/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd-gateway/target/maven-shared-archive-resources/META-INF/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/ddd-gateway/target/maven-shared-archive-resources/META-INF/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd-gateway/target/maven-shared-archive-resources/META-INF/NOTICE" beforeDir="false" afterPath="$PROJECT_DIR$/ddd-gateway/target/maven-shared-archive-resources/META-INF/NOTICE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ddd-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ddd-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd-gateway/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ddd-gateway/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd-gateway/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ddd-gateway/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd-gateway/target/surefire-reports/TEST-ntut.csie.sslab.ddd.adapter.eventbroker.EsdbProjectionTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ddd-gateway/target/surefire-reports/TEST-ntut.csie.sslab.ddd.adapter.eventbroker.EsdbProjectionTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd-gateway/target/surefire-reports/ntut.csie.sslab.ddd.adapter.eventbroker.EsdbProjectionTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ddd-gateway/target/surefire-reports/ntut.csie.sslab.ddd.adapter.eventbroker.EsdbProjectionTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dddcore/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dddcore/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dddcore/target/dddcore.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dddcore/target/dddcore.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dddcore/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dddcore/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dddcore/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" beforeDir="false" afterPath="$PROJECT_DIR$/dddcore/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dddcore/target/maven-shared-archive-resources/META-INF/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/dddcore/target/maven-shared-archive-resources/META-INF/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dddcore/target/maven-shared-archive-resources/META-INF/NOTICE" beforeDir="false" afterPath="$PROJECT_DIR$/dddcore/target/maven-shared-archive-resources/META-INF/NOTICE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dddcore/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dddcore/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dddcore/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dddcore/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +46,9 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -43,6 +80,7 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2D7Wah8G5DlaQwHImsL5gbiGJZ3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,13 +90,15 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/teddy/Workspace/Course/IdeaProjects/ddd-clean-es-cqrs/pom.xml",
+    "last_opened_file_path": "C:/Users/teddy/Workspace/IdeaProjects/ddd-clean-es-cqrs/pom.xml",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "File.Encoding"
+    "settings.editor.selected.configurable": "File.Encoding",
+    "spring.configuration.checksum": "df87c654cf086941d424ce68c149e866"
   }
 }]]></component>
   <component name="RunManager" selected="JUnit.All in ddd-gateway">
@@ -74,6 +114,37 @@
       <module name="ddd-gateway" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetBoardContentFromEsdbProjectionUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="board" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ntut.csie.sslab.ezkanban.kanban.board.usecase.getboardcontent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ntut.csie.sslab.ezkanban.kanban.board.usecase.getboardcontent" />
+      <option name="MAIN_CLASS_NAME" value="ntut.csie.sslab.ezkanban.kanban.board.usecase.getboardcontent.GetBoardContentFromEsdbProjectionUseCaseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetBoardContentFromEsdbProjectionUseCaseTest.get_board_content_with_a_valid_board_id" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="board" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ntut.csie.sslab.ezkanban.kanban.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ntut.csie.sslab.ezkanban.kanban.board.usecase.getboardcontent" />
+      <option name="MAIN_CLASS_NAME" value="ntut.csie.sslab.ezkanban.kanban.board.usecase.getboardcontent.GetBoardContentFromEsdbProjectionUseCaseTest" />
+      <option name="METHOD_NAME" value="get_board_content_with_a_valid_board_id" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,6 +174,8 @@
       <list>
         <item itemvalue="JUnit.All in ddd-gateway" />
         <item itemvalue="JUnit.ntut.csie.sslab.ezkanban.kanban in board" />
+        <item itemvalue="JUnit.GetBoardContentFromEsdbProjectionUseCaseTest" />
+        <item itemvalue="JUnit.GetBoardContentFromEsdbProjectionUseCaseTest.get_board_content_with_a_valid_board_id" />
         <item itemvalue="JUnit.All in board" />
       </list>
     </recent_temporary>
@@ -116,10 +189,23 @@
       <option name="presentableId" value="Default" />
       <updated>1660050670015</updated>
       <workItem from="1660050671326" duration="1646000" />
+      <workItem from="1660053867236" duration="3678000" />
+      <workItem from="1660060095070" duration="1582000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
