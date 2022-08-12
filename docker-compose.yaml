@@ -2,7 +2,8 @@ version: '3.9'
 
 services:
   esdb-node:
-    image: ghcr.io/eventstore/eventstore:20.6.1-alpha.0.69-arm64v8
+#    image: ghcr.io/eventstore/eventstore:20.6.1-alpha.0.69-arm64v8 # for mac silicon chip
+    image: eventstore/eventstore:latest
     ports:
       - '2113:2113'
       - '1113:1113'
@@ -12,13 +13,13 @@ services:
       - --enable-external-tcp
       - --enable-atom-pub-over-http
       - --start-standard-projections
+
   postgres_test:
     image: ezkanban/postgres_message_db:1.0
     ports:
       - '6000:5432'
     environment:
       - POSTGRES_PASSWORD=root
-
 
   postgres_admin:
     image: dpage/pgadmin4
