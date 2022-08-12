@@ -17,9 +17,14 @@
 for MacOS
 ```shell
 docker run --name esdb-node -it -p 2113:2113 -p 1113:1113 -d \
-ghcr.io/eventstore/eventstore:20.6.1-alpha.0.69-arm64v8 --insecure --run-projections=All \
+eventstore/eventstore:latest --insecure --run-projections=All \
 --enable-external-tcp --enable-atom-pub-over-http \
 --start-standard-projections
+```
+or start all required service by docker compose
+
+```shell
+docker compose up -d
 ```
 
 for Windows
@@ -36,11 +41,23 @@ url: http://localhost:2113/
 ```shell
 docker run --name postgres_test -e POSTGRES_PASSWORD=root -p 6000:5432 -d ezkanban/postgres_message_db:1.0
 ```
+or start all required service by docker compose
+
+```shell
+docker compose up -d
+```
+
 ### 4c. Postgres client pgadmin4
 for MacOS
 ```shell
-docker run --name pgadmin4 -p 5050:80 -e "PGADMIN_DEFAULT_EMAIL=teddy.chen.tw@gmail.com" -e "PGADMIN_DEFAULT_PASSWORD=root" -d dpage/pgadmin4
+docker run -p 5050:80 -e "PGADMIN_DEFAULT_EMAIL=teddy.chen.tw@gmail.com" -e "PGADMIN_DEFAULT_PASSWORD=root" -d dpage/pgadmin4
 ```
+or start all required service by docker compose
+
+```shell
+docker compose up -d
+```
+
 for Windows
 ```shell
 docker run -p 5050:80 -e PGADMIN_DEFAULT_EMAIL=teddy.chen.tw@gmail.com -e PGADMIN_DEFAULT_PASSWORD=root -d dpage/pgadmin4
