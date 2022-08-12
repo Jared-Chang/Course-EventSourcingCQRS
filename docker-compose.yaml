@@ -1,0 +1,29 @@
+version: '3.9'
+
+services:
+  esdb-node:
+    image: ghcr.io/eventstore/eventstore:20.6.1-alpha.0.69-arm64v8
+    ports:
+      - '2113:2113'
+      - '1113:1113'
+    command:
+      - --insecure
+      - --run-projections=All
+      - --enable-external-tcp
+      - --enable-atom-pub-over-http
+      - --start-standard-projections
+  postgres_test:
+    image: ezkanban/postgres_message_db:1.0
+    ports:
+      - '6000:5432'
+    environment:
+      - POSTGRES_PASSWORD=root
+
+
+  postgres_admin:
+    image: dpage/pgadmin4
+    ports:
+      - '5050:80'
+    environment:
+      - PGADMIN_DEFAULT_PASSWORD=root
+      - PGADMIN_DEFAULT_EMAIL=teddy.chen.tw@gmail.com
