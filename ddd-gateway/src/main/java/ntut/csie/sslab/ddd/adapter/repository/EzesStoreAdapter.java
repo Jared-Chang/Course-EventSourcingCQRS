@@ -51,9 +51,9 @@ public class EzesStoreAdapter implements EventStore {
     }
 
     @Override
-    public List<DomainEventData> getCategoryEvent(String categoryName) {
+    public List<DomainEventData> getEventsFromType(String eventType) {
         List<DomainEventData> domainEventData = new ArrayList<>();
-        List<MessageData> messageDatas = client.findByEventType(categoryName);
+        List<MessageData> messageDatas = client.findByEventType(eventType);
 
         messageDatas.forEach(x -> {
             domainEventData.add(toDomainEventData(x));

@@ -9,14 +9,13 @@ public interface EventStore extends Closeable {
 
     Optional<AggregateRootData> load(String aggregateStreamName);
 
-    List<DomainEventData> getCategoryEvent(String categoryName);
+    List<DomainEventData> getEventsFromType(String eventType);
 
     default String getStreamName(String category, String id) {
         return category + "-" + id;
     }
 
     void close();
-
 
     List<DomainEventData> getEventFromStream(String streamName, long revision);
     Optional<DomainEventData> getLastEventFromStream(String streamName);

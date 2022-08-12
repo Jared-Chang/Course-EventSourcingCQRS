@@ -100,11 +100,11 @@ public class EsdbStoreAdapter implements EventStore {
 
 
     @Override
-    public List<DomainEventData> getCategoryEvent(String categoryName) {
+    public List<DomainEventData> getEventsFromType(String eventType) {
         List<DomainEventData> domainEventData = new ArrayList<>();
         List<ResolvedEvent> resolvedEvents;
         try {
-            resolvedEvents = getResolvedEvents(EVENT_TYPE_PREFIX + categoryName);
+            resolvedEvents = getResolvedEvents(EVENT_TYPE_PREFIX + eventType);
             resolvedEvents.forEach(x -> {
                 domainEventData.add(toDomainEventData(x));
             });

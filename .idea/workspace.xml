@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b0d8ba9-72db-46d7-a856-ab58a3d24eff" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/teddy/Workspace/IdeaProjects/ddd-clean-es-cqrs/pom.xml",
+    "last_opened_file_path": "/Users/teddy/Workspace/Course/IdeaProjects/ddd-clean-es-cqrs",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -70,7 +69,20 @@
     "spring.configuration.checksum": "df87c654cf086941d424ce68c149e866"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.All in ddd-gateway">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in board">
+    <configuration name="All in board (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="board" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in board" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="board" />
       <option name="PACKAGE_NAME" value="" />
@@ -102,22 +114,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetBoardContentFromEsdbProjectionUseCaseTest.get_board_content_with_a_valid_board_id" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="board" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ntut.csie.sslab.ezkanban.kanban.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ntut.csie.sslab.ezkanban.kanban.board.usecase.getboardcontent" />
-      <option name="MAIN_CLASS_NAME" value="ntut.csie.sslab.ezkanban.kanban.board.usecase.getboardcontent.GetBoardContentFromEsdbProjectionUseCaseTest" />
-      <option name="METHOD_NAME" value="get_board_content_with_a_valid_board_id" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ntut.csie.sslab.ezkanban.kanban in board" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="board" />
       <extension name="coverage">
@@ -141,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in board" />
+        <item itemvalue="JUnit.All in board (1)" />
         <item itemvalue="JUnit.All in ddd-gateway" />
         <item itemvalue="JUnit.ntut.csie.sslab.ezkanban.kanban in board" />
         <item itemvalue="JUnit.GetBoardContentFromEsdbProjectionUseCaseTest" />
-        <item itemvalue="JUnit.GetBoardContentFromEsdbProjectionUseCaseTest.get_board_content_with_a_valid_board_id" />
-        <item itemvalue="JUnit.All in board" />
       </list>
     </recent_temporary>
   </component>
@@ -160,6 +156,7 @@
       <workItem from="1660050671326" duration="1646000" />
       <workItem from="1660053867236" duration="3678000" />
       <workItem from="1660060095070" duration="2607000" />
+      <workItem from="1660232360670" duration="1228000" />
     </task>
     <servers />
   </component>

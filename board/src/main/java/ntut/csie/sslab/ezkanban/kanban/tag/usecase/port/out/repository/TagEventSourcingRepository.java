@@ -38,7 +38,7 @@ public class TagEventSourcingRepository implements TagRepository {
 
     @Override
     public List<Tag> getTagsByBoardId(BoardId boardId) {
-        List<TagEvents.TagCreated> tagCreateds = eventStore.getCategoryEvent(TagEvents.TypeMapper.TAG_CREATED)
+        List<TagEvents.TagCreated> tagCreateds = eventStore.getEventsFromType(TagEvents.TypeMapper.TAG_CREATED)
                 .stream().map(x -> (TagEvents.TagCreated) DomainEventMapper.toDomain(x)).
                 filter( x-> x.boardId().equals(boardId)).toList();
 

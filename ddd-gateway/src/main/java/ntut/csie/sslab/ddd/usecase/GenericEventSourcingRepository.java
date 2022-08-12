@@ -12,7 +12,7 @@ import static ntut.csie.sslab.ddd.entity.common.Contract.requireNotNull;
 
 public class GenericEventSourcingRepository<T extends AggregateRoot>
         implements AbstractRepository<T, String> {
-    private final                         EventStore eventStore;
+    private final EventStore eventStore;
     private final Class clazz;
     private final String category;
     public GenericEventSourcingRepository(EventStore eventStore,

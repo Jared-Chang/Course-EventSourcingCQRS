@@ -27,10 +27,10 @@ public class CardEventSourcingRepository implements CardRepository {
 
     @Override
     public List<Card> findCardsInLane(LaneId laneId) {
-        List<CardEvents.CardCreated> cardCreateds = eventStore.getCategoryEvent(CardEvents.TypeMapper.CARD_CREATED)
+        List<CardEvents.CardCreated> cardCreateds = eventStore.getEventsFromType(CardEvents.TypeMapper.CARD_CREATED)
                 .stream().map(x -> (CardEvents.CardCreated) DomainEventMapper.toDomain(x))
                 .filter(y -> y.laneId().equals(laneId)).toList();
-        List<CardEvents.CardMoved> cardMoveds = eventStore.getCategoryEvent(CardEvents.TypeMapper.CARD_MOVED)
+        List<CardEvents.CardMoved> cardMoveds = eventStore.getEventsFromType(CardEvents.TypeMapper.CARD_MOVED)
                 .stream().map(x -> (CardEvents.CardMoved) DomainEventMapper.toDomain(x))
                 .filter(y-> y.newLaneId().equals(laneId) || y.oldLaneId().equals(laneId)).toList();
 
