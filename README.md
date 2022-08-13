@@ -1647,7 +1647,7 @@ public class MyTagEventSourcingRepository implements MyTagRepository {
 
     @Override
     public List<MyTag> getMyTagsByBoardId(String boardId) {
-        List<MyTagEvents.TagCreated> tagCreateds = eventStore.getCategoryEvent(MyTagEvents.TypeMapper.TAG_CREATED)
+        List<MyTagEvents.TagCreated> tagCreateds = eventStore.getEventsFromType(MyTagEvents.TypeMapper.TAG_CREATED)
                 .stream().map(x -> (MyTagEvents.TagCreated) DomainEventMapper.toDomain(x)).
                 filter( x-> x.boardId().equals(boardId)).toList();
 
@@ -1702,7 +1702,7 @@ public class MyTagOutboxRepository implements MyTagRepository {
 
     @Override
     public List<MyTag> getMyTagsByBoardId(String boardId) {
-        List<MyTagEvents.TagCreated> tagCreateds = store.getCategoryEvent(MyTagEvents.TypeMapper.TAG_CREATED)
+        List<MyTagEvents.TagCreated> tagCreateds = store.getEventsFromType(MyTagEvents.TypeMapper.TAG_CREATED)
                 .stream().map(x -> (MyTagEvents.TagCreated) DomainEventMapper.toDomain(x)).
                 filter( x-> x.boardId().equals(boardId)).toList();
 

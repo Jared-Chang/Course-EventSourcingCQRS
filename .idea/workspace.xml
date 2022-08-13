@@ -74,7 +74,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in board">
+  <component name="RunManager" selected="JUnit.CreateTagUseCaseTest.create_a_tag_use_case">
     <configuration name="All in board (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="board" />
       <option name="PACKAGE_NAME" value="" />
@@ -99,17 +99,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetBoardContentFromEsdbProjectionUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateTagUseCaseTest.create_a_tag_use_case" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="board" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ntut.csie.sslab.ezkanban.kanban.board.usecase.getboardcontent.*" />
+          <option name="PATTERN" value="ntut.csie.sslab.ezkanban.kanban.tag.usecase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ntut.csie.sslab.ezkanban.kanban.board.usecase.getboardcontent" />
-      <option name="MAIN_CLASS_NAME" value="ntut.csie.sslab.ezkanban.kanban.board.usecase.getboardcontent.GetBoardContentFromEsdbProjectionUseCaseTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="ntut.csie.sslab.ezkanban.kanban.tag.usecase" />
+      <option name="MAIN_CLASS_NAME" value="ntut.csie.sslab.ezkanban.kanban.tag.usecase.CreateTagUseCaseTest" />
+      <option name="METHOD_NAME" value="create_a_tag_use_case" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CreateTagUseCaseTest.create_a_tag_use_case" />
         <item itemvalue="JUnit.All in board" />
         <item itemvalue="JUnit.All in board (1)" />
         <item itemvalue="JUnit.All in ddd-gateway" />
         <item itemvalue="JUnit.ntut.csie.sslab.ezkanban.kanban in board" />
-        <item itemvalue="JUnit.GetBoardContentFromEsdbProjectionUseCaseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +157,7 @@
       <workItem from="1660050671326" duration="1646000" />
       <workItem from="1660053867236" duration="3678000" />
       <workItem from="1660060095070" duration="2607000" />
-      <workItem from="1660232360670" duration="1228000" />
+      <workItem from="1660232360670" duration="3734000" />
     </task>
     <servers />
   </component>
