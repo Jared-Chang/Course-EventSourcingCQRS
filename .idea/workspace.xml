@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9b0d8ba9-72db-46d7-a856-ab58a3d24eff" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dddcore/src/main/java/ntut/csie/sslab/ddd/usecase/cqrs/CqrsOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/dddcore/src/main/java/ntut/csie/sslab/ddd/usecase/cqrs/CqrsOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd-gateway/src/main/java/ntut/csie/sslab/ddd/adapter/eventbroker/GoogleEventBusAdapter.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,8 +75,16 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in board">
+  <component name="RunManager" selected="JUnit.All in board (2)">
     <configuration name="All in board (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="board" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in board (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="board" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -116,20 +124,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ntut.csie.sslab.ezkanban.kanban in board" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="board" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ntut.csie.sslab.ezkanban.kanban.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ntut.csie.sslab.ezkanban.kanban" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EzKanbanWebMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="board" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ntut.csie.sslab.ezkanban.kanban.main.framework.springboot.web.EzKanbanWebMain" />
@@ -139,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in board (2)" />
         <item itemvalue="JUnit.All in board" />
         <item itemvalue="JUnit.CreateTagUseCaseTest.create_a_tag_use_case" />
         <item itemvalue="JUnit.All in board (1)" />
         <item itemvalue="JUnit.All in ddd-gateway" />
-        <item itemvalue="JUnit.ntut.csie.sslab.ezkanban.kanban in board" />
       </list>
     </recent_temporary>
   </component>

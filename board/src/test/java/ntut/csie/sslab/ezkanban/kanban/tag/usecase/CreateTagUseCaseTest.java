@@ -1,6 +1,6 @@
 package ntut.csie.sslab.ezkanban.kanban.tag.usecase;
 
-import ntut.csie.sslab.ddd.adapter.eventbroker.GoogleEventBusAdapter;
+import ntut.csie.sslab.ddd.adapter.gateway.GoogleEventBusAdapter;
 import ntut.csie.sslab.ddd.usecase.DomainEventBus;
 import ntut.csie.sslab.ezkanban.kanban.board.entity.BoardId;
 import ntut.csie.sslab.ezkanban.kanban.common.usecase.AllEventsListener;

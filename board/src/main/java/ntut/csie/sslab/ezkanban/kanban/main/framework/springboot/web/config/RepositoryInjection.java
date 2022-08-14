@@ -1,6 +1,6 @@
 package ntut.csie.sslab.ezkanban.kanban.main.framework.springboot.web.config;
 
-import ntut.csie.sslab.ddd.adapter.eventbroker.GoogleEventBusAdapter;
+import ntut.csie.sslab.ddd.adapter.gateway.GoogleEventBusAdapter;
 import ntut.csie.sslab.ddd.adapter.repository.EsdbStoreAdapter;
 import ntut.csie.sslab.ddd.adapter.repository.EzOutboxStoreAdapter;
 import ntut.csie.sslab.ddd.adapter.repository.IdempotentRepositoryPeer;
